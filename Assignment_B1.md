@@ -1,4 +1,4 @@
-fun_calculate_months_to_save
+Custom function - Assignment B1
 ================
 Karanvir Singh
 2022-11-03
@@ -100,4 +100,4 @@ test_that("Testing months to save down deposit function", {
 })
 ```
 
-    ## Test passed 😀
+    ## Test passed 🎊
