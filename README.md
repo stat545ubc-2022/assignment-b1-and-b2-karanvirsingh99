@@ -30,7 +30,8 @@ This is a basic example which shows you how to use the
 ``` r
 library(homebuyer)
 
-# How many months until I can save for a 1,000,000 house with a 150,000 income, saving 10% of my income every month, and investing it with a return rate of 0.04
+# How many months until I can save for a 1,000,000 house with a 150,000 income,
+# saving 10% of my income every month, and investing it with a return rate of 0.04
 
 m_to_save_down_deposit(150000, 1000000, 0.1, 0.04)
 #> [1] 154
