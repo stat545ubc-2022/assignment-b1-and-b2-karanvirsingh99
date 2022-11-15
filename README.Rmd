@@ -1,0 +1,44 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# homebuyer package
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of homebuyer is to provide functions that help new-homebuyers manage their finances. It currently only contains one function `m_to_save_down_deposit`, which allows you to calculate the months needed to save for a downpayment of a house given your income and investments.
+
+## Installation
+
+You can install the development version of homebuyer from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-karanvirsingh99")
+```
+
+## Example
+
+This is a basic example which shows you how to use the `m_to_save_down_deposit` function
+
+```{r example}
+library(homebuyer)
+
+# How many months until I can save for a 1,000,000 house with a 150,000 income, saving 10% of my income every month, and investing it with a return rate of 0.04
+
+m_to_save_down_deposit(150000, 1000000, 0.1, 0.04)
+```
+
+
