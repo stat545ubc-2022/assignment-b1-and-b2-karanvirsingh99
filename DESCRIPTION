@@ -1,0 +1,13 @@
+Package: homebuyer
+Title: Calculations For Prospective Homebuyers
+Version: 0.0.0.9000
+Authors@R: 
+    person("Karanvir", "Singh", , "singh.ghuman.karan@gmail.com", role = c("aut", "cre"))
+Description: Function to calculate time needed to save for a downpayment, assuming no initial savings and that all monthly savings are invested with a specific return rate.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
